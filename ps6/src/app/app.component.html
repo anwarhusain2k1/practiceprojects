@@ -1,0 +1,11 @@
+<h1>employee table</h1>
+<table class="table">
+  <th class="thead-dark" *ngFor="let y of header">
+    {{y}}
+  </th>
+  <tr *ngFor="let x of data">
+    <div *ngIf="x.employee_age < 50 ; then thenblock ; else elseblock  "> </div>
+    <ng-template #thenblock><td class="text-success" *ngFor="let y of header">{{x[y]}}</td></ng-template>
+    <ng-template #elseblock><td class="text-danger" *ngFor="let y of header">{{x[y]}}</td></ng-template>
+  </tr>
+</table>
