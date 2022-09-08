@@ -1,0 +1,8 @@
+D:\practiceprojects\rainbow_school\rainbow_school\obj\Debug\rainbow_school.csproj.AssemblyReference.cache
+D:\practiceprojects\rainbow_school\rainbow_school\obj\Debug\rainbow_school.csproj.SuggestedBindingRedirects.cache
+D:\practiceprojects\rainbow_school\rainbow_school\obj\Debug\rainbow_school.csproj.CoreCompileInputs.cache
+D:\practiceprojects\rainbow_school\rainbow_school\bin\Debug\rainbow_school.exe.config
+D:\practiceprojects\rainbow_school\rainbow_school\bin\Debug\rainbow_school.exe
+D:\practiceprojects\rainbow_school\rainbow_school\bin\Debug\rainbow_school.pdb
+D:\practiceprojects\rainbow_school\rainbow_school\obj\Debug\rainbow_school.exe
+D:\practiceprojects\rainbow_school\rainbow_school\obj\Debug\rainbow_school.pdb
