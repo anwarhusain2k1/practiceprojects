@@ -1,0 +1,16 @@
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\obj\Debug\sorting_displaying.csproj.AssemblyReference.cache
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\obj\Debug\sorting_displaying.csproj.SuggestedBindingRedirects.cache
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\obj\Debug\sorting_displaying.csproj.CoreCompileInputs.cache
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\practiceprojects\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
+D:\practiceprojects\sorting_displaying\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+D:\practiceprojects\sorting_displaying\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+D:\practiceprojects\sorting_displaying\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+D:\practiceprojects\sorting_displaying\ConsoleApp1\obj\Debug\sorting_displaying.csproj.AssemblyReference.cache
+D:\practiceprojects\sorting_displaying\ConsoleApp1\obj\Debug\sorting_displaying.csproj.SuggestedBindingRedirects.cache
+D:\practiceprojects\sorting_displaying\ConsoleApp1\obj\Debug\sorting_displaying.csproj.CoreCompileInputs.cache
+D:\practiceprojects\sorting_displaying\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+D:\practiceprojects\sorting_displaying\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
