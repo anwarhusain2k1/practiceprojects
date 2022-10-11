@@ -24,10 +24,6 @@ namespace Rainbow_Schools
                 System.Threading.Thread.Sleep(5000);
             }
 
-            
-
-        }
-
-       
+        }       
     }
 }

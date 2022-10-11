@@ -8,9 +8,6 @@ using Rainbow_Schools.Interfaces;
 
 namespace Rainbow_Schools
 {
-    /// <summary>
-    /// Class <c>ManagerData</c> store data about classes, which contain students, subjects, and teachers. 
-    /// </summary>
     class ManagerData : IManagerData
     {
         private static string STUDENTFILE;

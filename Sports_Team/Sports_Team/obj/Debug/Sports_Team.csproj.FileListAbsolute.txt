@@ -1,0 +1,8 @@
+D:\practiceprojects\Sports_Team\Sports_Team\bin\Debug\Sports_Team.exe.config
+D:\practiceprojects\Sports_Team\Sports_Team\bin\Debug\Sports_Team.exe
+D:\practiceprojects\Sports_Team\Sports_Team\bin\Debug\Sports_Team.pdb
+D:\practiceprojects\Sports_Team\Sports_Team\obj\Debug\Sports_Team.csproj.AssemblyReference.cache
+D:\practiceprojects\Sports_Team\Sports_Team\obj\Debug\Sports_Team.csproj.SuggestedBindingRedirects.cache
+D:\practiceprojects\Sports_Team\Sports_Team\obj\Debug\Sports_Team.csproj.CoreCompileInputs.cache
+D:\practiceprojects\Sports_Team\Sports_Team\obj\Debug\Sports_Team.exe
+D:\practiceprojects\Sports_Team\Sports_Team\obj\Debug\Sports_Team.pdb
