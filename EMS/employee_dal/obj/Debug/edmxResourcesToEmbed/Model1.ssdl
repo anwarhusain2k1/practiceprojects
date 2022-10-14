@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="employeeModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Deptmaster">
+    <Key>
+      <PropertyRef Name="deptcode" />
+    </Key>
+    <Property Name="deptcode" Type="int" Nullable="false" />
+    <Property Name="deptname" Type="varchar" MaxLength="25" />
+  </EntityType>
+  <EntityType Name="empprofile">
+    <Key>
+      <PropertyRef Name="empcode" />
+    </Key>
+    <Property Name="empcode" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="DOB" Type="date" />
+    <Property Name="empname" Type="varchar" MaxLength="25" />
+    <Property Name="email" Type="varchar" MaxLength="25" />
+    <Property Name="deptcode" Type="int" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__empprofil__deptc__1273C1CD">
+    <End Role="Deptmaster" Type="Self.Deptmaster" Multiplicity="1" />
+    <End Role="empprofile" Type="Self.empprofile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Deptmaster">
+        <PropertyRef Name="deptcode" />
+      </Principal>
+      <Dependent Role="empprofile">
+        <PropertyRef Name="deptcode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="employeeModelStoreContainer">
+    <EntitySet Name="Deptmaster" EntityType="Self.Deptmaster" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="empprofile" EntityType="Self.empprofile" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__empprofil__deptc__1273C1CD" Association="Self.FK__empprofil__deptc__1273C1CD">
+      <End Role="Deptmaster" EntitySet="Deptmaster" />
+      <End Role="empprofile" EntitySet="empprofile" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

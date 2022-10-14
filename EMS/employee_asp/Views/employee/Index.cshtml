@@ -1,0 +1,58 @@
+﻿@model IEnumerable<employee_asp.Models.employee>
+
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>Employee List</h2>
+
+<p>
+    @Html.ActionLink("Create New", "Create")
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.empcode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.empname)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.email)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.deptcode)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.DOB)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.empcode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.empname)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.email)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.deptcode)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.DOB)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "Edit", new { id=item.empcode }) |
+            @Html.ActionLink("Details", "Details", new { id = item.empcode } ) |
+            @Html.ActionLink("Delete", "Delete", new { id = item.empcode })
+        </td>
+    </tr>
+}
+
+</table>

@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="employeeModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="Deptmaster">
+    <Key>
+      <PropertyRef Name="deptcode" />
+    </Key>
+    <Property Name="deptcode" Type="Int32" Nullable="false" />
+    <Property Name="deptname" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <NavigationProperty Name="empprofiles" Relationship="Self.FK__empprofil__deptc__1273C1CD" FromRole="Deptmaster" ToRole="empprofile" />
+  </EntityType>
+  <EntityType Name="empprofile">
+    <Key>
+      <PropertyRef Name="empcode" />
+    </Key>
+    <Property Name="empcode" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="DOB" Type="DateTime" Precision="0" />
+    <Property Name="empname" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="email" Type="String" MaxLength="25" FixedLength="false" Unicode="false" />
+    <Property Name="deptcode" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="Deptmaster" Relationship="Self.FK__empprofil__deptc__1273C1CD" FromRole="empprofile" ToRole="Deptmaster" />
+  </EntityType>
+  <Association Name="FK__empprofil__deptc__1273C1CD">
+    <End Role="Deptmaster" Type="Self.Deptmaster" Multiplicity="1" />
+    <End Role="empprofile" Type="Self.empprofile" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Deptmaster">
+        <PropertyRef Name="deptcode" />
+      </Principal>
+      <Dependent Role="empprofile">
+        <PropertyRef Name="deptcode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="employeeEntities" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="Deptmasters" EntityType="Self.Deptmaster" />
+    <EntitySet Name="empprofiles" EntityType="Self.empprofile" />
+    <AssociationSet Name="FK__empprofil__deptc__1273C1CD" Association="Self.FK__empprofil__deptc__1273C1CD">
+      <End Role="Deptmaster" EntitySet="Deptmasters" />
+      <End Role="empprofile" EntitySet="empprofiles" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

@@ -1,0 +1,12 @@
+D:\practiceprojects\school_mvc\school_db\bin\Debug\school_db.dll.config
+D:\practiceprojects\school_mvc\school_db\bin\Debug\school_db.dll
+D:\practiceprojects\school_mvc\school_db\bin\Debug\school_db.pdb
+D:\practiceprojects\school_mvc\school_db\bin\Debug\EntityFramework.dll
+D:\practiceprojects\school_mvc\school_db\bin\Debug\EntityFramework.SqlServer.dll
+D:\practiceprojects\school_mvc\school_db\bin\Debug\EntityFramework.xml
+D:\practiceprojects\school_mvc\school_db\bin\Debug\EntityFramework.SqlServer.xml
+D:\practiceprojects\school_mvc\school_db\obj\Debug\school_db.csproj.AssemblyReference.cache
+D:\practiceprojects\school_mvc\school_db\obj\Debug\school_db.csproj.CoreCompileInputs.cache
+D:\practiceprojects\school_mvc\school_db\obj\Debug\school_db.csproj.CopyComplete
+D:\practiceprojects\school_mvc\school_db\obj\Debug\school_db.dll
+D:\practiceprojects\school_mvc\school_db\obj\Debug\school_db.pdb

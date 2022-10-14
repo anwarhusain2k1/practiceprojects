@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="employeeModelStoreContainer" CdmEntityContainer="employeeEntities">
+    <EntitySetMapping Name="Deptmasters">
+      <EntityTypeMapping TypeName="employeeModel.Deptmaster">
+        <MappingFragment StoreEntitySet="Deptmaster">
+          <ScalarProperty Name="deptcode" ColumnName="deptcode" />
+          <ScalarProperty Name="deptname" ColumnName="deptname" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="empprofiles">
+      <EntityTypeMapping TypeName="employeeModel.empprofile">
+        <MappingFragment StoreEntitySet="empprofile">
+          <ScalarProperty Name="empcode" ColumnName="empcode" />
+          <ScalarProperty Name="DOB" ColumnName="DOB" />
+          <ScalarProperty Name="empname" ColumnName="empname" />
+          <ScalarProperty Name="email" ColumnName="email" />
+          <ScalarProperty Name="deptcode" ColumnName="deptcode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
