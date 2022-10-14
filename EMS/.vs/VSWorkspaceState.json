@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\employee_dal"
   ],
-  "SelectedNode": "\\packages",
+  "SelectedNode": "\\employee_dal\\DAL.cs",
   "PreviewInSolutionExplorer": false
 }

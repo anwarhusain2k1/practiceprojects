@@ -1,0 +1,12 @@
+D:\practiceprojects\school_webapi\studentdal\bin\Debug\studentdal.dll.config
+D:\practiceprojects\school_webapi\studentdal\bin\Debug\studentdal.dll
+D:\practiceprojects\school_webapi\studentdal\bin\Debug\studentdal.pdb
+D:\practiceprojects\school_webapi\studentdal\bin\Debug\EntityFramework.dll
+D:\practiceprojects\school_webapi\studentdal\bin\Debug\EntityFramework.SqlServer.dll
+D:\practiceprojects\school_webapi\studentdal\bin\Debug\EntityFramework.xml
+D:\practiceprojects\school_webapi\studentdal\bin\Debug\EntityFramework.SqlServer.xml
+D:\practiceprojects\school_webapi\studentdal\obj\Debug\studentdal.csproj.AssemblyReference.cache
+D:\practiceprojects\school_webapi\studentdal\obj\Debug\studentdal.csproj.CoreCompileInputs.cache
+D:\practiceprojects\school_webapi\studentdal\obj\Debug\studentdal.csproj.CopyComplete
+D:\practiceprojects\school_webapi\studentdal\obj\Debug\studentdal.dll
+D:\practiceprojects\school_webapi\studentdal\obj\Debug\studentdal.pdb

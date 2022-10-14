@@ -14,7 +14,7 @@ namespace school_db
     
     public partial class student
     {
-        public decimal student_id { get; set; }
+        public int student_id { get; set; }
         public string student_name { get; set; }
         public string student_address { get; set; }
         public string student_email { get; set; }

@@ -13,10 +13,10 @@ namespace school_db
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class schoolEntities : DbContext
+    public partial class schoolEntities1 : DbContext
     {
-        public schoolEntities()
-            : base("name=schoolEntities")
+        public schoolEntities1()
+            : base("name=schoolEntities1")
         {
         }
     
@@ -25,8 +25,8 @@ namespace school_db
             throw new UnintentionalCodeFirstException();
         }
     
+        public virtual DbSet<@class> classes { get; set; }
         public virtual DbSet<student> students { get; set; }
         public virtual DbSet<subject> subjects { get; set; }
-        public virtual DbSet<@class> classes { get; set; }
     }
 }
