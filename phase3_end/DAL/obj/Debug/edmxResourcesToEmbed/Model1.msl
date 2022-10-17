@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="ramsModelStoreContainer" CdmEntityContainer="ramsEntities">
+    <EntitySetMapping Name="laptop_list">
+      <EntityTypeMapping TypeName="ramsModel.laptop_list">
+        <MappingFragment StoreEntitySet="laptop_list">
+          <ScalarProperty Name="laptopid" ColumnName="laptopid" />
+          <ScalarProperty Name="brand" ColumnName="brand" />
+          <ScalarProperty Name="processor" ColumnName="processor" />
+          <ScalarProperty Name="ram" ColumnName="ram" />
+          <ScalarProperty Name="stock_available" ColumnName="stock_available" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

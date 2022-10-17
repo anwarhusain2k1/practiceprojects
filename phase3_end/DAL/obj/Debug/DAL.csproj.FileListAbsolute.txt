@@ -1,0 +1,12 @@
+D:\practiceprojects\phase3_end\DAL\bin\Debug\DAL.dll.config
+D:\practiceprojects\phase3_end\DAL\bin\Debug\DAL.dll
+D:\practiceprojects\phase3_end\DAL\bin\Debug\DAL.pdb
+D:\practiceprojects\phase3_end\DAL\bin\Debug\EntityFramework.dll
+D:\practiceprojects\phase3_end\DAL\bin\Debug\EntityFramework.SqlServer.dll
+D:\practiceprojects\phase3_end\DAL\bin\Debug\EntityFramework.xml
+D:\practiceprojects\phase3_end\DAL\bin\Debug\EntityFramework.SqlServer.xml
+D:\practiceprojects\phase3_end\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+D:\practiceprojects\phase3_end\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+D:\practiceprojects\phase3_end\DAL\obj\Debug\DAL.csproj.CopyComplete
+D:\practiceprojects\phase3_end\DAL\obj\Debug\DAL.dll
+D:\practiceprojects\phase3_end\DAL\obj\Debug\DAL.pdb

@@ -1,0 +1,59 @@
+﻿@model IEnumerable<DAL.laptop_list>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.laptopid)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.brand)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.processor)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ram)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.stock_available)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.laptopid)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.brand)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.processor)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ram)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.stock_available)
+            </td>
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Details", "Details", new { /* id=item.PrimaryKey */ }) |
+                @Html.ActionLink("Delete", "Delete", new { /* id=item.PrimaryKey */ })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

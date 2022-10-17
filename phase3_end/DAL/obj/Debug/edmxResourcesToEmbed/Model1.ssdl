@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="ramsModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="laptop_list">
+    <Key>
+      <PropertyRef Name="laptopid" />
+    </Key>
+    <Property Name="laptopid" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="brand" Type="varchar" MaxLength="20" />
+    <Property Name="processor" Type="varchar" MaxLength="20" />
+    <Property Name="ram" Type="varchar" MaxLength="20" />
+    <Property Name="stock_available" Type="int" />
+  </EntityType>
+  <EntityContainer Name="ramsModelStoreContainer">
+    <EntitySet Name="laptop_list" EntityType="Self.laptop_list" Schema="dbo" store:Type="Tables" />
+  </EntityContainer>
+</Schema>
