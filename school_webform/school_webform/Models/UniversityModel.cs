@@ -5,7 +5,7 @@ using System.Web;
 
 namespace school_webform.Models
 {
-    public class UniversityModel
+    public class Model
     {
     }
 }

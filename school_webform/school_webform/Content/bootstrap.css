@@ -1287,7 +1287,9 @@ h6,
   font-size: 12px;
 }
 p {
-  margin: 0 0 10px;
+  margin: 0 1px 10px 0;
+    height: 64px;
+    width: 1475px;
 }
 .lead {
   margin-bottom: 20px;

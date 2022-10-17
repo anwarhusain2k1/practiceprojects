@@ -1,4 +1,4 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="students.aspx.cs" Inherits="school_webform.students" %>
+﻿<%@ Page Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="students.aspx.cs" Inherits="school_webform.students" %>
 
 <!DOCTYPE html>
 
@@ -7,13 +7,15 @@
     <title></title>
 </head>
 <body>
-    <form id="form1" runat="server">
-        <div>
-            <asp:Table ID="Table1" runat="server">
-            </asp:Table>
-            <asp:Table ID="Table2" runat="server" Width="285px">
-            </asp:Table>
-        </div>
-    </form>
+    <p>
+        Student Id&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; : </p>
+    <p>
+        Student Name&nbsp;&nbsp; :</p>
+    <p>
+        Student Class&nbsp;&nbsp; :</p>
+    <p>
+        Student email&nbsp;&nbsp; :</p>
+    <p>
+        Contact number:</p>
 </body>
 </html>
